@@ -1,0 +1,17 @@
+{
+    "name": "marcw/nexmo-bundle",
+    "description": "A simple Symfony integration for Nexmo PHP client",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/framework-bundle": "~3.0",
+        "nexmo/client": "@beta"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Weistroff",
+            "email": "marc@weistroff.net"
+        }
+    ],
+    "minimum-stability": "beta"
+}

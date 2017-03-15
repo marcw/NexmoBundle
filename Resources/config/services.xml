@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+
+    <services>
+        <service id="marcw.nexmo.client" class="Nexmo\Client">
+            <argument type="service" id="marcw.nexmo.client.credentials.basic" />
+        </service>
+
+        <service id="marcw.nexmo.client.credentials.basic" class="Nexmo\Client\Credentials\Basic">
+            <argument />
+            <argument />
+        </service>
+    </services>
+</container>
+
