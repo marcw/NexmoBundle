@@ -4,7 +4,7 @@
     "type": "symfony-bundle",
     "autoload": {
         "psr-4": {
-            "MarcW\\Bundle\\NexmoBundle": "src/"
+            "MarcW\\Bundle\\NexmoBundle\\": "src/"
         }
     },
     "require": {
