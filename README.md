@@ -15,7 +15,7 @@ Add in your `AppKernel.php` file:
 Add in your `config.yml` file:
 
 ```yaml
-marcw_nexmo:
+marc_w_nexmo:
     api_key: <your nexmo api key>
     api_secret: <your nexmo api secret>
 ```

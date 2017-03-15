@@ -12,7 +12,7 @@ use Symfony\Component\DependencyInjection\Loader;
  *
  * @author Marc Weistroff <marc@weistroff.net>
  */
-class MarcwNexmoExtension extends Extension
+class MarcWNexmoExtension extends Extension
 {
     public function load(array $configs, ContainerBuilder $container)
     {
