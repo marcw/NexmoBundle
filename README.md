@@ -6,11 +6,15 @@ A simple bundle integration the [Nexmo PHP client library](https://github.com/Ne
 
 `composer require marcw/nexmo-bundle`
 
+Add in your `AppKernel.php` file:
+
+`new MarcW\Bundle\NexmoBundle\MarcWNexmoBundle(),`
+
 ## Configuration
 
 Add in your `config.yml` file:
 
-```
+```yaml
 marcw_nexmo:
     api_key: <your nexmo api key>
     api_secret: <your nexmo api secret>
