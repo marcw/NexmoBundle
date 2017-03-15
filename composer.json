@@ -2,6 +2,11 @@
     "name": "marcw/nexmo-bundle",
     "description": "A simple Symfony integration for Nexmo PHP client",
     "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "MarcW\\Bundle\\NexmoBundle": "src/"
+        }
+    },
     "require": {
         "symfony/framework-bundle": "~3.0",
         "nexmo/client": "@beta"
